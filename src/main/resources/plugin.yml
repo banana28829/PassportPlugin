@@ -1,0 +1,11 @@
+name: PassportPlugin
+version: 1.0.0
+main: net.uryupinsk.passport.PassportPlugin
+description: LanMain - Official Passport System for Minecraft Players
+api-version: '1.21'
+
+commands:
+  passport:
+    description: Get or view your passport
+    usage: /passport
+    aliases: [pasport]

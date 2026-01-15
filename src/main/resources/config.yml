@@ -1,0 +1,34 @@
+# Passport Plugin Configuration
+
+# Default passport data
+passport:
+  # Issue date format
+  issue-date: "2024.01.15"
+  
+  # Expiration date (years)
+  expiration-years: 10
+  
+  # Player types
+  player-types:
+    - "HUMAN"
+    - "HALF-ENDER"
+    - "VILLAGER"
+    - "ELF"
+  
+  # Blood types
+  blood-types:
+    - "O+"
+    - "O-"
+    - "A+"
+    - "A-"
+    - "B+"
+    - "B-"
+    - "AB+"
+    - "AB-"
+
+# Storage settings
+storage:
+  # File format: yaml or json
+  format: yaml
+  # Path to data files
+  path: "plugins/PassportPlugin/data/"
